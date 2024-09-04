@@ -1,0 +1,92 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text{
+  /* height: 500px; */
+  width: 600px;
+  background-color: rgb(114, 253, 253); 
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ padding: 1rem 3rem;
+  justify-content: space-evenly;
+  gap: 1rem;
+  
+}
+.text h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(0, 39, 106);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.textBox{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ba0808;
+  box-shadow: 8px 6px 15px #541a0f ;
+  font-size: 20px;
+}
+
+.buttonBox{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonBox button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  color: #fff;
+}
+
+
+
+.inputBox{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.inputBox input{
+  width: 60%;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #262323;
+  outline: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.inputBox button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: rgba(245, 0, 102, 0.56) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#360b55, #5B42F3 50%,#01393d);
+  color: #fff;
+}
+
+
